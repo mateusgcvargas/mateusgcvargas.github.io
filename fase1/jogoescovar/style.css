@@ -33,14 +33,17 @@ body{
 }
 
 #btncont{
-    width: auto;
-    margin-top: 80px;   
-    background-color: #63d3d4;
-    color: #faf8da;
-    border-color: #63d3d4 ;
-    border-left-width: 40px;
-    border-right-width: 40px;
-    font-size: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #215d76;
+  color: #faf8da;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
 }
 
 #pergunta1{

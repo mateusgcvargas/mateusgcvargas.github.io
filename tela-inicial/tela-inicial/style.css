@@ -1,0 +1,96 @@
+/* Reset básico
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+} */
+
+#body {
+  background-color: #faf8da;
+  color: #215d76;
+  font-family: "Passion One", sans-serif;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #215d76;
+  
+}
+
+#navbrand {
+  color: #faf8da;
+  font-size: 45px;
+  
+ 
+}
+
+/* Título */
+#desc {
+  font-size: 50px;
+  color: #215d76;
+  margin-top: 10px;
+}
+
+/* Personagem */
+#personagem {
+  margin: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+/* Setas */
+.seta {
+  width: 60px;
+  height: auto;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/*imagem do Botão start de iniciar  */
+#start {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+}
+
+/* Ícone de controle dos pais fixo */
+#img {
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* Responsividade
+@media (max-width: 768px) {
+  #navbrand {
+    font-size: 30px;
+  }
+
+  #desc {
+    font-size: 30px;
+  }
+
+  #personagem {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .seta {
+    width: 40px;
+    margin: 0 5px;
+  }
+
+  #start {
+    width: 100px;
+    height: 100px;
+  }
+
+  #img {
+    width: 60px;
+  }
+} */

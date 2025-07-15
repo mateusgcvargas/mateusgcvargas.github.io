@@ -1,0 +1,124 @@
+.hi{
+    margin-top: 20px;
+}
+
+.pia{
+    margin-top: 20px;
+    size: 10px;
+    width: auto;
+    height: auto;
+    max-width: 00px;
+    max-height: 500px;
+}
+
+
+body{
+  font-family: "Passion One", sans-serif;
+  background-color: #37a0bf;
+  color: #faf8da;
+}
+
+.hi{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#smileys{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#btncont {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #215d76;
+  color: #faf8da;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+#pergunta1{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#input1{
+    margin-top: 30px;
+}
+
+#mtotriste{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#triste{
+    max-width: 50px;
+    max-height: 50px;    
+}
+
+#neutro{
+    max-width: 50px;
+    max-height: 50px;    
+}
+
+#feliz{
+    max-width: 50px;
+    max-height: 50px;    
+}
+
+#mtofeliz{
+    max-width: 50px;
+    max-height: 50px;    
+}
+
+#fakeslider{
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 80px;
+}
+
+#title{
+    margin-top: 40px;
+    font-size: 50px;
+    background-color: #215d76;
+    border-radius: 15px;
+    padding:1rem 2rem ;
+    color: #faf8da;
+}
+
+#desc{
+    font-size: 30px;
+}
+
+.pia{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+#navbar{
+    background-color: #215d76;
+
+}
+
+#navbrand{
+    color: #faf8da;
+    font-size: 45px;
+}
+
+#object{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 20px;
+
+
+}

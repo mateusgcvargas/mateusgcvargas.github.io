@@ -1,0 +1,50 @@
+body{
+  font-family: "Passion One", sans-serif;
+  background-color:#68c6c9;
+  color: #faf8da;
+}
+#title{
+    margin-top: 40px;
+    font-size: 50px;
+    background-color: #215d76;
+    border-radius: 15px;
+    padding:1rem 2rem ;
+}
+
+#navbar{
+    background-color: #215d76;
+
+}
+
+#navbrand{
+    color: #faf8da;
+    font-size: 45px;
+}
+
+
+#object{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 40px;
+}
+.personagemEscolhido{
+    margin-top: 20px;
+    size: 10px;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+#btncont {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #215d76;
+  color: #faf8da;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
+}

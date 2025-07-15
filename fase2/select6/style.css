@@ -1,0 +1,67 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Passion One", sans-serif;
+}
+
+#body {
+  background-color: #ffa09e;
+  color: #faf8da;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #215d76;
+
+}
+
+#navbrand {
+  color: #faf8da;
+  font-size: 45px;
+  text-align: center;
+  
+}
+
+/* Título */
+#desc {
+  font-size: 40px;
+  background-color: #db5f6e;
+  color: #faf8da;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  margin: 10px;
+  max-width: 90%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+/* Personagem */
+#personagemEscolhido {
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+  max-height: 300px;
+}
+
+/* Botões com imagens */
+.item-escolha {
+  width: 60px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* container dos botões */
+.escolhas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 4px 20px;
+  background-color: #db5f6e;
+  margin-top: 50px;
+}

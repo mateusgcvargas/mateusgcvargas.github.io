@@ -1,3 +1,9 @@
+function playAudio() {
+  const audio = document.getElementById('bg-audio');
+  audio.play();
+  document.getElementById('btncont').style.display = 'none';
+}
+
 const object = document.getElementById("object");
 const pia = document.getElementById("pia");
 

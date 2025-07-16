@@ -16,7 +16,7 @@
   <header> 
     <nav id="navbar" class="navbar navbar-dark justify-content-center">
       <div class="container-fluid justify-content-center">
-        <a id="navbrand" class="navbar-brand mb-0 h1">Higiene Divertida!</a>
+        <a id="navbrand" class="navbar-brand mb-0 h1">Higiene Divertida</a>
       </div>
     </nav>
   </header>
@@ -27,16 +27,14 @@
 
     <!-- Escolha de Personagem -->
     <div class="d-flex justify-content-center align-items-center mt-3">
-      <img src="seta_esquerda.png" alt="seta para esquerda" class="seta" onclick="" />
+      <img src="seta_esquerda.png" alt="seta para esquerda" class="seta" onclick="trocarpersonagem(-1)" />
       <img id="personagem" src="personagem1.png" alt="Personagem" />
-      <img src="seta_direito.png" alt="seta para direita" class="seta" onclick="" />
+      <img src="seta_direito.png" alt="seta para direita" class="seta" onclick="trocarpersonagem(1)" />
     </div>
 
     <!-- Botão de iniciar start-->
     <div class="mt-4">
-      <a href="../fase1/intro1/index.html">
-        <img src="play.png" alt="iniciar o jogo" id="start" />
-      </a>
+      <img src="play.png" alt="iniciar o jogo" id="start" onclick="iniciarjogo()"/>
     </div>
     
 
